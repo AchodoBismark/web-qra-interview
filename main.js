@@ -3,9 +3,7 @@ let score = document.getElementsByClassName('score__item__btn');
 let closeWindow = document.getElementById('closewindow');
 
 closeWindow.addEventListener('click', ()=>{ 
-    console.log("clicked")
     window.close();
-
 });
 
 
