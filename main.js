@@ -7,7 +7,6 @@ closeWindow.addEventListener('click', ()=>{
 });
 
 
-
 for (let i = 0; i < score.length; i++) {
     score[i].addEventListener('click', ()=>{
         score[i].parentElement.classList.toggle('active__score__item')
